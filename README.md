@@ -14,7 +14,7 @@ The icons have changed throughout the generations, in size and in style :
 
 ![AllGens](https://github.com/dechantoine/PokeGAN/blob/master/allgen.PNG)
 
-First and second gen Bulbasaur looks ugly now... Because the actual style for Pokémons have been adopted in the third gen, I dropped icons from the oldest gen. Then, 
+First and second gen Bulbasaur looks ugly now... Because the actual style for Pokémons have been adopted in the third gen, I dropped icons from the oldest gen. Then, I cropped icons with size greater thant 64x64 if possible (if the Pokemon on the icon can fit in a 64x64 square). Finally, I changed the white background in a black background and wroked with grayscaled images.
 
 ![Process](https://github.com/dechantoine/PokeGAN/blob/master/process.PNG)
 
