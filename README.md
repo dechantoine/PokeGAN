@@ -20,3 +20,7 @@ The icons have changed throughout the generations, in size and in style :
 ### 3 - Training
 
 ### 4 - Filter
+
+### 5 - Colorization
+
+## Acknowledgments
