@@ -10,7 +10,8 @@ But, how did I get those ? Let's see how to manage a DCGAN in few steps !
 ### 1 - Data
 
 I have downloaded all Pokémons sprites on [veekun.com](https://veekun.com/dex/downloads): the five generations are available, from Green, Red, Blue, and Yellow to Black and White.
-
+The icons have changed throughout the generations, in size and in style :
+![AllGens](https://github.com/dechantoine/PokeGAN/blob/master/allgen.PNG)
 
 
 ### 2 - Design a DCGAN
