@@ -20,6 +20,8 @@ First and second gen Bulbasaur looks ugly now... Because the actual style for Po
 
 With the grayscaled images, I did a more advanced selection aiming to kept only Pokemons with eyes (and by extension the head) in the top left or mid left of the picture. So I reversed some pictures and dropped others. I ended up with around 500 icons.
 
+![Second criterion](https://github.com/dechantoine/PokeGAN/blob/master/second_criterion.PNG)
+
 
 ### 2 - Design a DCGAN
 
