@@ -25,7 +25,7 @@ With the grayscaled images, I did a more advanced selection aiming to kept only 
 
 ### 2 - Design a DCGAN
 
-To chose the architecture of my DCGAN, it followed up the core proposed in the paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1511.06434)
+To chose the architecture of my DCGAN, I followed the core proposed in the paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1511.06434) and some advices found and gathered by [Soumith Chintala *et al*](https://github.com/soumith/ganhacks).
 
 ### 3 - Training
 
