@@ -25,8 +25,9 @@ With the grayscaled images, I did a more advanced selection aiming to kept only 
 
 ### 2 - Design a DCGAN
 
-To chose the architecture of my DCGAN, I followed the core proposed in the paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1511.06434) and some advices found and gathered by [Soumith Chintala *et al*](https://github.com/soumith/ganhacks).
+- See the eponym section in the IPython notebook for the full code -
 
+To chose the architecture of my DCGAN, I followed the core proposed in the paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1511.06434) and some advices found and gathered by [Soumith Chintala *et al*](https://github.com/soumith/ganhacks).
 
 The generator is fed with gaussian vectors of size 200, then a dense layer transforms those 200 inputs into a 16x16x64 tensor. At this step, a batch normalization is applied to increase stability of the training; but I can not applied it in the whole neural network otherwise generated pictures will have a very similar and narrow color distribution. The picture is then grown through the neural network by the famous transpose convolution layers. I chose the LeakyReLU activation function for all layers except the last one which use sigmoid to project data into the [0,1] space and thus use 0 to represent black and 1 to represent white. 
 ![Generator](https://github.com/dechantoine/PokeGAN/blob/master/generator.jpg)
@@ -37,6 +38,10 @@ The discriminator takes 64x64x1 pictures (converted into tensors) as input. The 
 ![Discriminator](https://github.com/dechantoine/PokeGAN/blob/master/discriminator.jpg)
 
 ### 3 - Training
+
+- See the eponym section in the IPython notebook for the full code -
+
+To set the training environment of my DCGAN, I create a custom function to gather all relevant tricks that I have read in the literature.
 
 ### 4 - Filter
 
