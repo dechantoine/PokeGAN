@@ -25,7 +25,7 @@ With the grayscaled images, I did a more advanced selection aiming to kept only 
 
 ### 2 - Design a DCGAN
 
-- See the eponym section in the IPython notebook for the full code -
+- See the eponym section in the IPython notebook for the full code
 
 To chose the architecture of my DCGAN, I followed the core proposed in the paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1511.06434) and some advices found and gathered by [Soumith Chintala *et al*](https://github.com/soumith/ganhacks).
 
@@ -39,7 +39,7 @@ The discriminator takes 64x64x1 pictures (converted into tensors) as input. The 
 
 ### 3 - Training
 
-- See the eponym section in the IPython notebook for the full code -
+- See the eponym section in the IPython notebook for the full code
 
 To set the training environment of my DCGAN, I create a custom function to gather all relevant tricks that I have read in the literature.
 
