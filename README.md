@@ -27,6 +27,10 @@ With the grayscaled images, I did a more advanced selection aiming to kept only 
 
 To chose the architecture of my DCGAN, I followed the core proposed in the paper [*Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks*](https://arxiv.org/abs/1511.06434) and some advices found and gathered by [Soumith Chintala *et al*](https://github.com/soumith/ganhacks).
 
+![Generator](https://github.com/dechantoine/PokeGAN/blob/master/generator.jpg)
+
+![Discriminator](https://github.com/dechantoine/PokeGAN/blob/master/discriminator.jpg)
+
 ### 3 - Training
 
 ### 4 - Filter
