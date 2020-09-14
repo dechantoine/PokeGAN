@@ -32,7 +32,7 @@ The generator is fed with gaussian vectors of size 200, then a dense layer trans
 ![Generator](https://github.com/dechantoine/PokeGAN/blob/master/generator.jpg)
 
 
-The discriminator takes 64x64x1 pictures (converted into tensors) as input. The background of inputs is represented by 0s, thus the neurons ignore it and focus on non-black pixels. The discriminator is very classic, with convolution layers and LeakyReLU activation functions. The output is the probability of a sample being real (1) or fake (0).
+The discriminator takes 64x64x1 pictures (converted into tensors) as input. The background of inputs is represented by 0s, thus the neurons ignore it and focus on non-black pixels. The discriminator is very classic, with convolution layers, LeakyReLU activation functions and dropout to strengthen network and reduce dependency on individual pixels. The output layer (tan hyperbolic) returns the probability of a sample being real (1) or fake (0).
 
 ![Discriminator](https://github.com/dechantoine/PokeGAN/blob/master/discriminator.jpg)
 
