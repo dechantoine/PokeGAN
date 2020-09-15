@@ -45,6 +45,10 @@ To set the training environment of my DCGAN, I create a custom function to gathe
 
 ### 4 - Filter
 
+Coming soon...
+
 ### 5 - Colorization
+
+Coming soon...
 
 ## Acknowledgments
