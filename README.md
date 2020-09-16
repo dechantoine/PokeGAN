@@ -47,6 +47,13 @@ To train my DCGAN, I create a custom environment to gather all relevant tricks t
 
 Then the target: as shown by [Salimans et *al.*](https://arxiv.org/abs/1606.03498), discriminator trained with soft labels have better performance. So, instead of using real=1 and fake=0, for each real real sample I replaced the label with a random number between 0.8 and 1, and for each fake sample I replaced it with a random number between 0 and 0.2. I chose to keep the random labels in the [0,1] space although there is no indication on this subject in the paper.
 
+Both generator and discriminator gradient descents were performed on the binary crossentropy loss function with a staged learning rate :
+
+
+I stopped the training at 2000 epochs; models generating the most realistic pictures were around 1500 epochs.
+
+The performance of both generator and discriminator was tracked by computing binary accuracy on each batch.
+
 ### 4 - Filter
 
 Coming soon...
