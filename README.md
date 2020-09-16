@@ -37,11 +37,15 @@ The discriminator takes 64x64x1 pictures (converted into tensors) as input. The 
 
 ![Discriminator](https://github.com/dechantoine/PokeGAN/blob/master/discriminator.jpg)
 
+I used the widespread and very intuitive Tensorflow 2 library to implement the DCGAN.
+
 ### 3 - Training
 
 - See the eponym section in the IPython notebook for the full code
 
-To set the training environment of my DCGAN, I create a custom function to gather all relevant tricks that I have read in the literature.
+To train my DCGAN, I create a custom environment to gather all relevant tricks that I have read in the literature. First, the data processing: as seen before, the discriminator training pictures are projected into the [0,1] space (*i.e.*, array <- array/255).
+
+Then the target: as shown by [Salimans et *al.*](https://arxiv.org/abs/1606.03498)
 
 ### 4 - Filter
 
