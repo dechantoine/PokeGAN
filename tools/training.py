@@ -4,7 +4,7 @@ from tensorflow.keras import metrics
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-from pokeplot import plot_image, plot_multiple_images_with_scores
+from .pokeplot import plot_image, plot_multiple_images_with_scores
 
 
 # this function generates sample_size random sample with gan generator and return the output_size best with their scores
