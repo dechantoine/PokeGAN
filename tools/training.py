@@ -198,7 +198,8 @@ def train_gan(gan, preprocessing, gan_number, images, batch_size, codings_size,
         # every X epochs, gan is saved
         if epoch % model_saving_ratio == 0:
             start_checkpoint = datetime.datetime.now()
-            gan.save('./DCGAN_{}/models/model_at_epoch_{}.h5'.format(gan_number, epoch))
+            generator.save('./DCGAN_{}/models/generator_at_epoch_{}.h5'.format(gan_number, epoch))
+            discriminator.save('./DCGAN_{}/models/discriminator_at_epoch_{}.h5'.format(gan_number, epoch))
             duration_checkpoint = datetime.datetime.now() - start_checkpoint
             if verbose:
                 print("Time to save model checkpoint: {} seconds".format(duration_checkpoint.seconds))
